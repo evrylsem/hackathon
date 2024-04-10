@@ -74,25 +74,24 @@ $data = [
             </nav>
         </div>
         <div class="below-nav">
-        <div class="container mt-4">
-            <h2 class="mb-4">List of Agencies Offering Trainings</h2>
-            <div class="row">
-            <?php foreach ($data as $company): ?>
-            <div class="col-md-12 mb-3">
-            <div class="company-card">
-    <img src="<?php echo $company['image_url']; ?>" alt="<?php echo $company['name']; ?>" class="company-image">
-    <div class="card-body">
-        <h3><?php echo $company['name']; ?></h3>
-        <p><?php echo $company['description']; ?></p>
-        <a href="#" class="btn btn-primary apply-btn">Apply Now</a>
-    </div>
-</div>
+            <div class="container mt-4">
+                <h2 class="mb-4">List of Agencies Offering Trainings</h2>
+                <div class="row">
+                    <?php foreach ($data as $company): ?>
+                        <div class="col-md-12 mb-3">
+                            <div class="company-card">
+                                <img src="<?php echo $company['image_url']; ?>" alt="<?php echo $company['name']; ?>" class="company-image">
+                                <div class="card-body">
+                                    <h3><?php echo $company['name']; ?></h3>
+                                    <p><?php echo $company['description']; ?></p>
+                                    <a href="#" class="btn btn-primary apply-btn">Train Here</a>
+                                </div>
+                            </div>
 
+                        </div>
+                    <?php endforeach; ?>
+                </div>
             </div>
-            <?php endforeach; ?>
-            </div>
-            <!-- Add more companies as needed -->
-        </div>
         </div>
     </body>
 </html>
