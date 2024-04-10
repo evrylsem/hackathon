@@ -1,0 +1,94 @@
+@import url("font-body.css");
+
+body {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.img-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%; /* Adjust the width as needed */
+    max-width: 53rem; /* Set a maximum width if needed */
+    /* height: auto; */
+    background-color: rgba(105, 121, 96, 1);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.img-container img {
+    height: 30rem;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.form-container {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+    height: 30rem;
+    border: 1px solid rgba(105, 121, 96, 0.33);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: rgb(233, 227, 227);
+}
+
+.input-field {
+    border: none;
+    padding: 1rem;
+    width: 20rem;
+    height: 2.3rem;
+    border-radius: 10px;
+    background-color: rgba(105, 121, 96, 0.33);
+    box-shadow: 3px 3px 5px rgba(80, 78, 78, 0.5);
+}
+
+.btns {
+    color: rgb(233, 227, 227);
+    text-decoration: none;
+}
+
+.btn-container {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(105, 121, 96, 1);
+    width: 9rem;
+    height: 2.4rem;
+    padding: 0.5rem;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px rgba(80, 78, 78, 0.5);
+}
+
+.entry-form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.acc-check {
+    margin-top: 2rem;
+}
+
+.acc-check a {
+    text-decoration: underline;
+    color: rgba(105, 121, 96, 1);
+    font-weight: bold;
+}
+
+.logo-container {
+    margin-bottom: 3rem;
+}
+
+.logo {
+    width: 14rem;
+}

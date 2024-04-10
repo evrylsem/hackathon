@@ -1,0 +1,158 @@
+@import url("font-body.css");
+
+/* body {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+} */
+
+body {
+    background-color: rgb(233, 227, 227)
+}
+
+.navbar {
+    border-bottom: 1.5px solid rgba(105, 121, 96, 0.33);
+    background-color: rgb(233, 227, 227);
+}
+
+.logo {
+    width: 10rem;
+    margin-right: 15px; /* Adjust the margin as needed */
+}
+
+.navbar-brand {
+    color: rgba(105, 121, 96, 1);
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar-nav {
+    margin-left: auto; /* Push nav links to the right */
+}
+
+.nav-link {
+    color: rgba(105, 121, 96, 1);
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.nav-link:hover {
+    color: rgba(105, 121, 96, 0.7); /* Change color on hover */
+}
+
+.nav-item {
+    margin-right: 1.5rem;
+}
+
+.train {
+    border: 1px solid rgba(105, 121, 96, 1);
+    border-radius: 20px;
+    padding: 0.5rem;
+}
+
+.train:hover {
+    background-color: rgba(105, 121, 96, 1);
+    color: rgb(233, 227, 227);
+}
+
+.forum {
+    text-decoration: underline;
+}
+
+/* below nav */
+.below-nav {
+    display: flex;
+    flex-direction: column;
+    /* text-align: center; */
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 2rem; */
+    padding: 3rem;
+    background-color: rgb(233, 227, 227);
+}
+
+
+.p-header{
+    color: #8EA681;
+    font-size: 50px;
+    text-align: center;
+    margin-top: -5px;
+}
+
+.form-control{
+    height: 50px;
+    background-color: rgba(142, 166, 129, 0.5);
+    border: 1px solid #8EA681;
+    /* color: #8EA681; */
+}
+
+.custom-padding {
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+span {
+    font-weight: bold;
+}
+
+.form-check-label{
+    white-space: normal;
+}
+
+.message{
+    text-align: center;
+}
+
+
+.link{
+    text-decoration: none;
+    color: rgba(105, 121, 96, 1);
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.createbtn{
+    background-color: #8EA681;
+    color: white;
+    border: none;
+    font-weight: bold;
+}      
+
+::placeholder {
+    color: #8EA681; 
+}
+
+/* .navbar {
+    border-bottom: 1.5px solid rgba(105, 121, 96, 1);
+}
+
+#logo {
+    height: 5rem;
+    margin-left: 3rem;
+}
+
+.below-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 5rem;
+} */
+
+.checkbox {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#grid-check {
+    margin-right: 1rem;
+}
+
+.form-check {
+    width: 26rem;
+}

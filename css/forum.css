@@ -1,0 +1,125 @@
+@import url("font-body.css");
+
+/* body {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+} */
+
+body {
+    background-color: rgb(233, 227, 227)
+}
+
+.navbar {
+    border-bottom: 1.5px solid rgba(105, 121, 96, 0.33);
+    background-color: rgb(233, 227, 227);
+}
+
+.logo {
+    width: 10rem;
+    margin-right: 15px; /* Adjust the margin as needed */
+}
+
+.navbar-brand {
+    color: rgba(105, 121, 96, 1);
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar-nav {
+    margin-left: auto; /* Push nav links to the right */
+}
+
+.nav-link {
+    color: rgba(105, 121, 96, 1);
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.nav-link:hover {
+    color: rgba(105, 121, 96, 0.7); /* Change color on hover */
+}
+
+.nav-item {
+    margin-right: 1.5rem;
+}
+
+.train {
+    border: 1px solid rgba(105, 121, 96, 1);
+    border-radius: 20px;
+    padding: 0.5rem;
+}
+
+.train:hover {
+    background-color: rgba(105, 121, 96, 1);
+    color: rgb(233, 227, 227);
+}
+
+.forum {
+    text-decoration: underline;
+}
+
+/* below nav */
+.below-nav {
+    display: flex;
+    flex-direction: column;
+    /* text-align: center; */
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 2rem; */
+    padding: 3rem;
+    background-color: rgb(233, 227, 227);
+}
+
+/* Forum */
+.post-btn {
+    margin-bottom: 20px;
+    background-color: rgba(105, 121, 96, 1);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.forum-posts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid rgba(105, 121, 96, 0.5); /* Add border */
+    border-radius: 10px;
+    max-width: 600px;
+    width: 100%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+    margin-bottom: 10px;
+    color: rgba(105, 121, 96, 1);
+    font-weight: bold;
+}
+
+.card p {
+    color: rgba(105, 121, 96, 0.7); /* Adjust text color */
+}
+
+.reply-btn {
+    background-color: rgba(105, 121, 96, 0.5);
+    color: #fff;
+    border: none;
+    padding: 8px 16px; /* Adjust padding */
+    border-radius: 5px;
+    cursor: pointer;
+}

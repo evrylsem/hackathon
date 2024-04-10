@@ -1,0 +1,73 @@
+@font-face {
+    font-family: "DMSans";
+    src: url("fonts\DM_Sans\DMSans-VariableFont_opsz,wght.ttf");
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("fonts\Montserrat\Montserrat-VariableFont_wght.ttf");
+}
+
+* {
+    font-family: 'DMSans', sans-serif;
+    font-size: 19px;
+    margin: 0;
+    padding: 0;
+    color: rgba(105, 121, 96, 1);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(238, 231, 218);
+    height: 100vh;
+}
+
+.navbar {
+    border-bottom: 1.5px solid rgba(105, 121, 96, 0.33);
+    background-color: rgb(233, 227, 227);
+}
+
+.logo {
+    width: 10rem;
+    margin-right: 15px; /* Adjust the margin as needed */
+}
+
+.navbar-brand {
+    color: rgba(105, 121, 96, 1);
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar-nav {
+    margin-left: auto; /* Push nav links to the right */
+}
+
+.nav-link {
+    color: rgba(105, 121, 96, 1);
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.nav-link:hover {
+    color: rgba(105, 121, 96, 0.7); /* Change color on hover */
+}
+
+.nav-item {
+    margin-right: 1.5rem;
+}
+
+.train {
+    border: 1px solid rgba(105, 121, 96, 1);
+    border-radius: 20px;
+    padding: 0.5rem;
+}
+
+.train:hover {
+    background-color: rgba(105, 121, 96, 1);
+    color: rgb(233, 227, 227);
+}
